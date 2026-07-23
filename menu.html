@@ -8,13 +8,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="Images/favicon.png">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="wrap">
-    <a href="index.html" class="brand">Mr. Cheesecake<span>Baked to order &middot; Local pickup</span></a>
+    <a href="index.html" class="brand-logo"><img src="Images/logo.png" alt="Mr. Cheesecake — cakes, loafs, cookies, brownies" class="logo-img"></a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
     <nav class="main-nav">
       <ul>
@@ -28,16 +29,24 @@
 </header>
 
 <section class="hero" style="padding-bottom:0;">
-  <div class="wrap" style="grid-template-columns:1fr; text-align:center; padding-bottom:50px;">
+  <div class="wrap" style="grid-template-columns:1fr; text-align:center; padding-bottom:30px;">
     <div>
       <h1>The Menu</h1>
       <p class="lede" style="margin-left:auto; margin-right:auto;">Whole cakes only — every order is baked fresh, not pulled from a case. Pricing available on request when you call or message to order.</p>
+      <nav class="menu-jumpnav" aria-label="Jump to menu category">
+        <a href="#signature">Signature Cheesecakes</a>
+        <a href="#specialty">Specialty Cheesecakes</a>
+        <a href="#seasonal">Seasonal Flavor</a>
+        <a href="#baking">Also Baking</a>
+        <a href="#custom">Custom Orders</a>
+      </nav>
+      <div class="scroll-cue" aria-hidden="true">&#8595;</div>
     </div>
   </div>
   <div class="crust-divider to-cream"></div>
 </section>
 
-<section>
+<section id="signature">
   <div class="wrap">
     <h2 class="section-title">Signature Cheesecakes</h2>
     <p class="section-sub">The five year-round flavors, available as a whole cake.</p>
@@ -93,7 +102,57 @@
 </section>
 
 <div class="crust-divider to-berry"></div>
-<section class="testimonial-strip">
+<section class="testimonial-strip" id="specialty">
+  <div class="wrap">
+    <h2 class="section-title">Specialty Cheesecakes</h2>
+    <p class="section-sub">A few extra flavors that show up from time to time — ask what's on rotation.</p>
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <div class="photo"><img src="Images/Products/cheesecake-cherry-topping-plated.jpg" alt="Cheesecake with cherry topping"></div>
+        <div class="info">
+          <h3>Cherry-Topped Cheesecake</h3>
+          <p>Plain cheesecake finished with a bright cherry topping.</p>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <div class="photo"><img src="Images/Products/oreo-cheesecake-plated.jpg" alt="Oreo cheesecake"></div>
+        <div class="info">
+          <h3>Oreo Cheesecake</h3>
+          <p>Crushed Oreo crust and topping throughout.</p>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <div class="photo"><img src="Images/Products/cheesecake-chocolate-marble-plated.jpg" alt="Chocolate marble cheesecake"></div>
+        <div class="info">
+          <h3>Chocolate Marble Cheesecake</h3>
+          <p>Plain and chocolate batters swirled together.</p>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <div class="photo"><img src="Images/Products/cheesecake-brownie-bottom-plated.jpg" alt="Cheesecake with a brownie bottom"></div>
+        <div class="info">
+          <h3>Brownie-Bottom Cheesecake</h3>
+          <p>Classic cheesecake baked over a fudge brownie layer.</p>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <div class="photo"><img src="Images/Products/plain-chocolate-chip-cheesecake-plated.jpg" alt="Chocolate chip bottom cheesecake"></div>
+        <div class="info">
+          <h3>Chocolate Chip Bottom Cheesecake</h3>
+          <p>Classic cheesecake baked over a chocolate chip cookie bottom.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="testimonial-strip" id="seasonal">
   <div class="wrap">
     <h2 class="section-title">Seasonal Flavor</h2>
     <p class="section-sub">Available November through January only.</p>
@@ -111,7 +170,7 @@
   </div>
 </section>
 
-<section>
+<section id="baking">
   <div class="wrap">
     <h2 class="section-title">Also Baking</h2>
     <p class="section-sub">A small rotating selection of brownies, cookies, and cakes.</p>
@@ -177,58 +236,7 @@
   </div>
 </section>
 
-<div class="crust-divider to-berry"></div>
-<section class="testimonial-strip">
-  <div class="wrap">
-    <h2 class="section-title">Specialty Cheesecakes</h2>
-    <p class="section-sub">A few extra flavors that show up from time to time — ask what's on rotation.</p>
-    <div class="menu-grid">
-
-      <div class="menu-card">
-        <div class="photo"><img src="Images/Products/cheesecake-cherry-topping-plated.jpg" alt="Cheesecake with cherry topping"></div>
-        <div class="info">
-          <h3>Cherry-Topped Cheesecake</h3>
-          <p>Plain cheesecake finished with a bright cherry topping.</p>
-        </div>
-      </div>
-
-      <div class="menu-card">
-        <div class="photo"><img src="Images/Products/oreo-cheesecake-plated.jpg" alt="Oreo cheesecake"></div>
-        <div class="info">
-          <h3>Oreo Cheesecake</h3>
-          <p>Crushed Oreo crust and topping throughout.</p>
-        </div>
-      </div>
-
-      <div class="menu-card">
-        <div class="photo"><img src="Images/Products/cheesecake-chocolate-marble-plated.jpg" alt="Chocolate marble cheesecake"></div>
-        <div class="info">
-          <h3>Chocolate Marble Cheesecake</h3>
-          <p>Plain and chocolate batters swirled together.</p>
-        </div>
-      </div>
-
-      <div class="menu-card">
-        <div class="photo"><img src="Images/Products/cheesecake-brownie-bottom-plated.jpg" alt="Cheesecake with a brownie bottom"></div>
-        <div class="info">
-          <h3>Brownie-Bottom Cheesecake</h3>
-          <p>Classic cheesecake baked over a fudge brownie layer.</p>
-        </div>
-      </div>
-
-      <div class="menu-card">
-        <div class="photo"><img src="Images/Products/plain-chocolate-chip-cheesecake-plated.jpg" alt="Chocolate chip bottom cheesecake"></div>
-        <div class="info">
-          <h3>Chocolate Chip Bottom Cheesecake</h3>
-          <p>Classic cheesecake baked over a chocolate chip cookie bottom.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section>
+<section id="custom">
   <div class="wrap">
     <h2 class="section-title">Custom &amp; Batch Orders</h2>
     <div class="info-grid">

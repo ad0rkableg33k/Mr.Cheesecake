@@ -95,6 +95,21 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   margin-top: 2px;
 }
 
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 76px;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .logo-img { height: 58px; }
+}
+
 nav.main-nav ul {
   list-style: none;
   display: flex;
@@ -260,6 +275,46 @@ section { padding: 64px 0; }
   max-width: 60ch;
   margin: 0 auto 40px;
   color: rgba(74,53,64,0.75);
+}
+
+/* ---------- Menu jump nav + scroll cue ---------- */
+
+.menu-jumpnav {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 24px 0 0;
+}
+
+.menu-jumpnav a {
+  background: #fff;
+  color: var(--berry);
+  font-weight: 800;
+  font-size: 0.85rem;
+  padding: 9px 20px;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  white-space: nowrap;
+}
+
+.menu-jumpnav a:hover {
+  background: var(--blush);
+  text-decoration: none;
+}
+
+.scroll-cue {
+  text-align: center;
+  margin-top: 14px;
+  color: var(--berry);
+  font-size: 1.5rem;
+  line-height: 1;
+  animation: cue-bounce 1.8s ease-in-out infinite;
+}
+
+@keyframes cue-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
 }
 
 /* ---------- Menu cards ---------- */
