@@ -5,9 +5,8 @@ serves them as-is. Live at: https://ad0rkableg33k.github.io/Mr.Cheesecake/
 
 ## Still to fill in
 
-- [ ] **Order form**: `order.html` has a Formspree form pointed at a placeholder
-      endpoint (`YOUR_FORM_ID`). Create a new Formspree form for order requests
-      and swap the `action` URL in the `<form>` tag.
+- [x] **Order form**: connected to Formspree — submissions go to the email
+      the Formspree account is registered under.
 - [ ] **About page**: `about.html` has placeholder bio copy in *italics* —
       swap it for Todd's real story.
 - [ ] **Testimonials**: `index.html` and `about.html` have placeholder
