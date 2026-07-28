@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.body.classList.add('splash-active');
 
   var dismissed = false;
-  var autoTimer = setTimeout(enter, 4000);
+  var autoTimer = setTimeout(enter, 20000);
 
   function enter() {
     if (dismissed) return;
