@@ -529,6 +529,14 @@ section { padding: 64px 0; }
   border: 6px solid #fff;
 }
 
+.signature-img {
+  width: 170px;
+  height: auto;
+  margin-top: -8px;
+  margin-left: 4px;
+  display: block;
+}
+
 @media (max-width: 780px) {
   .about-grid { grid-template-columns: 1fr; }
 }
