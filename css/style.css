@@ -548,10 +548,8 @@ section { padding: 64px 0; }
 }
 
 .signature-img {
-  width: 170px;
+  width: 210px;
   height: auto;
-  margin-top: -8px;
-  margin-left: 4px;
   display: block;
 }
 
