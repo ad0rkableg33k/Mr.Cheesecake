@@ -529,6 +529,17 @@ section { padding: 64px 0; }
   border: 6px solid #fff;
 }
 
+.story-card {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 44px 48px;
+}
+
+@media (max-width: 600px) {
+  .story-card { padding: 28px 24px; }
+}
+
 .signature-img {
   width: 170px;
   height: auto;
