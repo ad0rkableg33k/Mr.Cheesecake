@@ -536,6 +536,21 @@ section { padding: 64px 0; }
   object-fit: cover;
 }
 
+.about-photo {
+  float: left;
+  width: 300px;
+  max-width: 45%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 6px solid var(--cream-2);
+  margin: 0 28px 16px 0;
+}
+
+@media (max-width: 560px) {
+  .about-photo { float: none; width: 100%; max-width: 100%; margin: 0 0 20px; }
+}
+
 .story-card {
   background: #fff;
   border-radius: var(--radius);
