@@ -57,7 +57,7 @@
         <div class="info">
           <h3>Plain Cheesecake</h3>
           <p>The classic — smooth, dense, and simple. A blank canvas for any topping you like.</p>
-          <p class="price">Ask for pricing</p>
+          <div id="paypal-container-HBV3L9GJGBDWG" style="margin-top:12px;"></div>
         </div>
       </div>
 
@@ -271,6 +271,12 @@
   <p class="footer-note">&copy; 2026 Mr. Cheesecake. Site built with love, not a franchise template.</p>
 </footer>
 
+<script src="https://www.paypal.com/sdk/js?client-id=BAAajAmjnSclsmRTKQwISDL-kVJQ2r5i-penxR6xTBrwaG33_IVgX_2zov9IqiA7FV5TJA5Mmk4BcBVHb4&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "HBV3L9GJGBDWG",
+  }).render("#paypal-container-HBV3L9GJGBDWG");
+</script>
 <script src="js/main.js"></script>
 </body>
 </html>
